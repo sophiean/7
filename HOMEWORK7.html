@@ -1,0 +1,33 @@
+<html>
+  <head>
+
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsSRJShIE2_fMJiSSfUMRH2qJ63yfaSN0&sensor=false"></script>
+  <script src=hwk7.js defer />
+
+
+<script>
+document.getElementById("myBtn").addEventListener("click", displayDate);
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+
+
+  </head>
+  <body>
+<div>
+  <div id="map" style="width: 500px; height: 400px;"></div> 
+</div>
+<div>
+<!-- experimenting with event listeners-->
+<button id="myBtn">
+click me
+</button>
+
+  <p id="demo">
+    asdasadasd
+  </p>
+
+</div>
